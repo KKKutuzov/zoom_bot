@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 
-def join_zoom(link, pas, name, user_name, msg, chromedriver_path = "/usr/local/bin/chromedriver",  dur = 60):
+def join_zoom(link, pas, name, user_name, msg, chromedriver_path = "/usr/local/bin/chromedriver",  dur = 5700):
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     browser = webdriver.Chrome(chromedriver_path, options=options)

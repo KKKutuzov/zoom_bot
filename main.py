@@ -36,4 +36,9 @@ def startThread(link, pas, name, user_name, msg):
     print('Тред c именем {} запущен'.format(name))
 
 if __name__ == "__main__":
-    print('debug')
+    df = pd.read_excel('example.xlsx')
+    for line in read_tbl(df):
+        eval(line)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
