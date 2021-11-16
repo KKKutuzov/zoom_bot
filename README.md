@@ -1,1 +1,9 @@
-# zoom_bot
+# Zoom_bot для посещения лекций и семинаров в zoom
+
+## Для установки зависимостей выполнить:
+
+    python3 -m pip install -r requirements.txt
+
+## Для апуска скрипта выполнить:
+    
+    python3 main.py
