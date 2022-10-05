@@ -4,6 +4,6 @@
 
     python3 -m pip install -r requirements.txt
 
-## Для запуска скрипта выполнить:
+## Для запуска скрипта выполнить команду:
     
     python3 main.py
